@@ -10,7 +10,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-<h6> a </6>s
+<h6> a </6>
+    Mudou aqui taokei (y)
 //seleciona do banco de dados
 $sql = "SELECT id, firstname, lastname, email FROM MyGuests";
 $result = $conn->query($sql);
@@ -26,7 +27,7 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
-
+if 
 <html>
 <body>
 <a href="cadastro.php" /> cadastro
