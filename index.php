@@ -10,7 +10,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-<h6> a </6>s
+MUDOUUUUUUUUUUUUUUUU
 //seleciona do banco de dados
 $sql = "SELECT id, firstname, lastname, email FROM MyGuests";
 $result = $conn->query($sql);
