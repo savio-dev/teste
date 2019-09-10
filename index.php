@@ -4,6 +4,7 @@ $username = "root";
 $password = "";
 $dbname = "myDB";
 
+Cria conexao ok
 // Cria conexão
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Checa conexão
