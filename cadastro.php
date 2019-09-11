@@ -6,6 +6,8 @@ Nome: <input type="text" name="name"><br>
 Sobrenome: <input type="text" name="lastname"><br>
 E-mail: <input type="text" name="email"><br>
 Telefone: <input type="text" name="telefone"><br>
+
+Endereço:<input type="text" name="endereço"><br>
 <input type="submit">
 </form>
 
