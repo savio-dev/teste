@@ -4,7 +4,7 @@ $username = "root2808";
 $password = "";
 <<<<<<< HEAD
 
-$dbname = "meuBanco2";
+$dbname = "meuBanco26";
 
 =======
 $dbname = "myDB";
