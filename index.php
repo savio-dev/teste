@@ -3,8 +3,11 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "myDB";
-
-Cria conexão kkkkkkkkkkk
+// PARTIU...
+<<<<<<< HEAD
+=======
+// Cria conexão
+>>>>>>> e903e7b28442396555b2f2a54f12a2bc81189195
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Checa conexão
 if ($conn->connect_error) {
