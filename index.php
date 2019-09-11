@@ -1,10 +1,14 @@
 <?php
 $servername = "localhost";
-$username = "root";
+$username = "root2808";
 $password = "";
+<<<<<<< HEAD
 
 $dbname = "meuBanco2";
 
+=======
+$dbname = "myDB";
+>>>>>>> 5c45a384cdf2f40ec9ea4516e3bf599c9469d4b6
 // Cria conexão
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Checa conexão
