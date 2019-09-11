@@ -4,7 +4,13 @@ $username = "root";
 $password = "";
 $dbname = "myDB";
 
+<<<<<<< HEAD
 conexão Daniel
+=======
+
+Alterar programa Daniel
+// Cria conexão
+>>>>>>> 3cbe49fee886c1058acecba0b7ad70dac12e67f1
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Checa conexão
 if ($conn->connect_error) {
@@ -23,8 +29,9 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
-$conn->close();
+$conn->open();
 ?>
+
 
 <html>
 <body>
