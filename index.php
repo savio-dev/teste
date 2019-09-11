@@ -31,6 +31,8 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
 
+echo "Um teste do GIT";
+
 <html>
 <body>
 <a href="cadastro.php" /> cadastro
