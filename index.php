@@ -33,6 +33,8 @@ $conn->close();
 
 echo "Um teste do GIT";
 
+echo "Feito com sucesso";
+
 <html>
 <body>
 <a href="cadastro.php" /> cadastro
