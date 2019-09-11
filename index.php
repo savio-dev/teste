@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "myDB";
-// PARTIU...CASA!
+// PARTIU...
 <<<<<<< HEAD
 =======
 // Cria conexão
