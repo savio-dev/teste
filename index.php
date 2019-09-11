@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "root";
+$username = "root11";
 $password = "";
 $dbname = "myDB";
 // PARTIU...
@@ -13,6 +13,12 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
+<<<<<<< HEAD >>>>>>>>>>>
+<h6> a </6>
+    Mudou aqui taokei (y)
+=======
+MUDOUUUUUUUUUUUUUUUU
+>>>>>>> 8aba729e69089e80039f11661c229894f6cc8711
 //seleciona do banco de dados
 $sql = "SELECT id, firstname, lastname, email FROM MyGuests";
 $result = $conn->query($sql);
@@ -28,7 +34,7 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
-
+if 
 <html>
 <body>
 <a href="cadastro.php" /> cadastro
